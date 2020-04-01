@@ -1,1 +1,5 @@
 language: php
+jobs: 
+    include:
+        name: Job 1
+        script: echo "Running job 1"
