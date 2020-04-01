@@ -1,9 +1,10 @@
 language: php
 jobs: 
+    - stage: unit tests
+        script: echo "Running job 1"
+    - stage: unit tests
+        script: php index.php
+    fast_finish: true
     include:
         name: Job 1
         script: echo "Running job 1"
-jobs:
-    include:
-        name: Job 2
-        script: php index.php
