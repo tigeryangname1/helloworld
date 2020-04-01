@@ -4,7 +4,3 @@ jobs:
         script: echo "Running job 1"
     - stage: unit tests
         script: php index.php
-    fast_finish: true
-    include:
-        name: Job 1
-        script: echo "Running job 1"
