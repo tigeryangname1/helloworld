@@ -3,3 +3,5 @@ jobs:
     include:
         name: Job 1
         script: echo "Running job 1"
+        name: Job 2
+        script: php index.php
